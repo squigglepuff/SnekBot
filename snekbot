@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+# *-* coding: utf-8 *-*
+
+'''
+Main SnekBot file.
+
+This file is used to determine the system and it's sanity to run SnekBot. If all is good and in the "green", this file then instantiates a "core.app.Application" object and fires
+ "Application::Run()" to run the system, which will display the GUI, connect to Twitch, etc.
+'''
+
+if __name__ == "__main__":
+    iRtnCode = 0
+
+    # Do Work.
+
+    return iRtnCode
