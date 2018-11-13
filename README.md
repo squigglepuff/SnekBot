@@ -81,6 +81,22 @@ A great many things, including chat and it's moderation, custom commands, custom
 
 * More to be added in the future!
 
+## Developing
+If you're wanting to help develop for SnekBot, you'll need to be versed in Python 2.7.x (Python 3.x is OK) and it's ***STRONGLY RECOMMENDED*** that you look at "STYLE.md" and "HIERARCHY.md".
+
+### Git Branches
+You're more than welcome to create git branches in the repository. These are used to test your features and will contain code pushes until one of the primary contributors can test then merge your changes into *Master* and carve a release.
+
+### Git Commit messages.
+It's ***VITAL*** that your git commit messages are clean, and detail what you did. They don't need to incredibly verbose, but they need to be explicit and concise. It's recommended you follow a simple changelog style, like so:
+```
+git commit -m '* ADD: Added a file used to accomplish X.
+* BUG FIX: Fixed bug preventing Y. (TICKET: <Ticket_ID_Here>)
+* CHANGE/ALTER/TWEAK: Made a change to accomodate/allow Z.'
+```
+
+This makes it **incredibly** easy for the main contributors to determine what you did and why, then for them to make additions to the changelog when needed.
+
 ## License (GPLv3)
 ```
 GNU GENERAL PUBLIC LICENSE
