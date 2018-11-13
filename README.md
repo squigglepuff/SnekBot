@@ -9,7 +9,7 @@ SnekBot is a fun little Twitch streaming bot that is focused to be like [StreamL
 [Open Broadcaster Software (OBS)](https://obsproject.com/) along with easy to use tools for things like stream/chat management/features. This bot is designed to run everywhere (as it's built on Python 2.7) with primary targets being MacOS, Windows, and Linux (Ubuntu & Fedora).
 
 ### Why....."Snek"?
-Becuase.....raisins.
+Because.....raisins.
 
 ### How does it hook up to Twitch?
 SnekBot uses an OAuth token to connect to your twitch account. Simple and easy, much like OBS.
@@ -19,9 +19,9 @@ The details here aren't set in stone, but the current working plan/model is to h
 OBS's native "obspython" module.
 
 ### What will I be able to control with the bot?
-A great many things, including chat and it's moderation, custom commands, custom sounds, custom effects, customer graphics, and even OBS and your Twitch to an extent!
+A great many things, including chat and it's moderation, custom commands, custom sounds, custom effects, custom graphics, and even OBS and your Twitch to an extent!
 
-## Roadmap
+## Feature Roadmap
 
 ☑ Create Github repository.    
 ☐ Get Twitch OAuth working.    
@@ -37,6 +37,49 @@ A great many things, including chat and it's moderation, custom commands, custom
 ☐ Add custom emote support (for chat).    
 ☐ Add custom soundfx support.    
 ☐ Add custom gfx support.    
+☐ Add "Install" script (SH and BAT).    
+☐ Add "Points" and "Games" for chatters.    
+☐ Finalize Roadmap(s).    
+
+## GUI Roadmap
+☐ Install PyQT5.    
+☐ Add basic window.    
+☐ Add menu bar that allows basic menu stuff (like "File", "Edit", "Help", etc.)    
+☐ Add "Settings" (or "Preferences") menu entry and basic dialog for said entry.    
+☐ Add "Global" section to "Settings".
+    ☐ Add "Enable Chat Widget".    
+    ☐ Add "Enable Health Widget".    
+    ☐ Add "Enable Stats Widget".    
+    ☐ Add "Enable Notifications Widget".    
+    ☐ Add "Enable Info Widget".    
+    ☐ Add "Enable Preview Widget".    
+    ☐ Add "Enable Keyboard shortcuts".    
+    ☐ Add "Enable OBS Connectivity".    
+☐ Add "Keyboard" section to "Settings" ("Hotkeys" maybe?).    
+☐ Add "Twitch" section to "Settings".    
+    ☐ Add "Login" section for bot (OAuth/Stream key).    
+    ☐ Add "Storage Preference" for past broadcasts.    
+    ☐ Add "Mature" switch for when streaming....things.    
+    ☐ Add "Latency" preference (low v. normal).    
+    ☐ Add "Banner" for when not broadcasting.    
+☐ Add "Health" widget.    
+☐ Add "Stats" widget.    
+☐ Add "Notifications" widget.    
+☐ Add "Info" widget.    
+☐ Add "Preview" widget.    
+☐ Add "Tools" menu.    
+    ☐ Add "Show toolbox" entry.    
+    ☐ Add "Commands" entry.    
+    ☐ Add "SoundFX" entry.    
+    ☐ Add "Notifications" entry.    
+    ☐ Add "Graphics" entry.    
+☐ Add "Commands" widget-dialog (for custom chat commands).    
+☐ Add "SoundsFX" widget-dialog (for custom sfx).    
+☐ Add "Notifications" widget-dialog (for custom notifications).    
+☐ Add "Graphics" widget-dialog (for custom gfx).    
+☐ Add "Toolbox" tab-dialog (contains all dialogs from "Tools" menu).    
+
+* More to be added in the future!
 
 ## License (GPLv3)
 ```
