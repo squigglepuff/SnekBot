@@ -26,7 +26,6 @@ The basic format is:
 
 For instance: `g_iCount` is a global integer (whole number) representing a count of some kind. Pretty easy and straight-forward.
 
-**Standard Variable Prefixes in SnekBot:**
 | Data Type | Scope | Prefix characters | Capital? |
 |:----------|:-----:|------------------:|:--------:|
 | Boolean   | any | b | No |
